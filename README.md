@@ -10,13 +10,11 @@ sebuah aplikasi perpustakaan yg mempunyai fitur crud untuk books dan customers
 /books    |POST   |Create a book
 /books/:id|DELETE |Delete a book
 /books/:id|PUT    |Update a book with new info
-
 /customers    |GET    |Get all the customers info (admin only)
 /customers/:id|GET    |Get a single customer info
 /customers    |POST   |Create a customer
 /customers/:id|DELETE |Delete a customer
 /customers/:id|PUT    |Update a customer with new info
-
 /transactions    |GET    |Get all the transactions info (admin only)
 /transactions/:id|GET    |Get a single transaction info
 /transactions    |POST   |Create a transaction
