@@ -3,6 +3,7 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost/library_2')
+mongoose.Promise = global.Promise;
 
 let index = require('./routes')
 

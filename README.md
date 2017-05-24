@@ -16,6 +16,12 @@ sebuah aplikasi perpustakaan yg mempunyai fitur crud untuk books dan customers
 /customers    |POST   |Create a customer
 /customers/:id|DELETE |Delete a customer
 /customers/:id|PUT    |Update a customer with new info
+|
+/transactions    |GET    |Get all the transactions info (admin only)
+/transactions/:id|GET    |Get a single transaction info
+/transactions    |POST   |Create a transaction
+/transactions/:id|DELETE |Delete a transaction
+/transactions/:id|PUT    |Update a transaction with new info
 To Use
 ```javascript
 npm install
