@@ -5,7 +5,8 @@ let bookSchema = mongoose.Schema({
   title: String,
   author: String,
   category: String,
-  stock: Number
+  stock: Number,
+  image: String
 })
 
 let books = mongoose.model('books', bookSchema)

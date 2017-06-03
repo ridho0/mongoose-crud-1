@@ -25,6 +25,7 @@ module.exports = {
           $set: {
             isbn:req.body.isbn || record.isbn,
             title:req.body.title || record.title,
+            image:req.body.image || record.image,
             author:req.body.author || record.author,
             category:req.body.category || record.category,
             stock:Number(req.body.stock) || record.stock
